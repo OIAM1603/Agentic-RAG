@@ -21,8 +21,8 @@ import gradio as gr
 
 
 # ========= CẤU HÌNH HỆ THỐNG =========
-os.environ["TAVILY_API_KEY"] = "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"
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDWom0oXwH6zUyj6055uLtXByDCmkfLn7A"
+os.environ["TAVILY_API_KEY"] = "your-api-key"
+os.environ["GOOGLE_API_KEY"] = "your-api-key"
 
 DATA_FOLDER = Path("dataset")
 VECTORSTORE_PATH = Path("./dataset/vectorstores")
