@@ -40,6 +40,7 @@ Trợ lý AI sử dụng mô hình RAG (Retrieval-Augmented Generation) để tr
 
 ---
 
+````
 ## 🗂️ Cấu trúc thư mục
 
 
@@ -50,7 +51,7 @@ Trợ lý AI sử dụng mô hình RAG (Retrieval-Augmented Generation) để tr
 └── requirements.txt        # (Tùy chọn) Danh sách thư viện cần thiết
 
 
----
+````
 
 ## 🚀 Cách chạy project
 
