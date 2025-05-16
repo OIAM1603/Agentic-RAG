@@ -4,13 +4,13 @@ Trợ lý AI sử dụng mô hình RAG (Retrieval-Augmented Generation) để tr
 
 ## 🧩 Tính năng chính
 
-- ✅ Trích xuất dữ liệu từ `.txt`, `.docx`, `.pdf`, `.csv`, `.xlsx`
-- ✅ Xử lý & tạo vector embedding bằng `intfloat/multilingual-e5-base`
-- ✅ Lưu trữ & tìm kiếm thông tin qua FAISS
-- ✅ Tìm kiếm thông tin thời gian thực qua Tavily API
-- ✅ Tương tác với người dùng qua giao diện Gradio
-- ✅ Mô hình ngôn ngữ chính: `gemini-2.0-flash` (Google Generative AI)
-- ✅ Trả lời tiếng Việt tự nhiên + trích dẫn nguồn
+- Trích xuất dữ liệu từ `.txt`, `.docx`, `.pdf`, `.csv`, `.xlsx`
+- Xử lý & tạo vector embedding bằng `intfloat/multilingual-e5-base`
+- Lưu trữ & tìm kiếm thông tin qua FAISS
+- Tìm kiếm thông tin thời gian thực qua Tavily API
+- Tương tác với người dùng qua giao diện Gradio
+- Mô hình ngôn ngữ chính: `gemini-2.0-flash` (Google Generative AI)
+- Trả lời tiếng Việt tự nhiên
 
 ---
 
@@ -40,13 +40,10 @@ Trợ lý AI sử dụng mô hình RAG (Retrieval-Augmented Generation) để tr
 ↓
 → Trả lời người dùng
 
-```
-
 ---
 
 ## 🗂️ Cấu trúc thư mục
 
-```
 
 .
 ├── agent.py                # Mã nguồn chính
@@ -54,7 +51,6 @@ Trợ lý AI sử dụng mô hình RAG (Retrieval-Augmented Generation) để tr
 │   └── vectorstores/       # FAISS vectorstore
 └── requirements.txt        # (Tùy chọn) Danh sách thư viện cần thiết
 
-````
 
 ---
 
