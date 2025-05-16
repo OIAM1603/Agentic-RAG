@@ -1,0 +1,17 @@
+langchain 
+langchain-community 
+langchain-huggingface 
+langchain-google-genai 
+google-generativeai 
+sentence-transformers 
+faiss-cpu 
+gradio 
+tavily-python 
+smolagents 
+openpyxl 
+datasets 
+PyPDF2 
+python-docx
+tqdm
+
+
