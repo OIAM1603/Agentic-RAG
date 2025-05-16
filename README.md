@@ -1,8 +1,3 @@
-Dưới đây là nội dung file `README.md` chi tiết cho project **Trợ lý Agentic RAG tiếng Việt**:
-
----
-
-```markdown
 # 🤖 Trợ lý Agentic RAG Tiếng Việt
 
 Trợ lý AI sử dụng mô hình RAG (Retrieval-Augmented Generation) để trả lời câu hỏi bằng tiếng Việt, kết hợp **kiến thức từ tài liệu nội bộ** và **tìm kiếm web thời gian thực**.
