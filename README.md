@@ -39,6 +39,7 @@ Trợ lý AI sử dụng mô hình RAG (Retrieval-Augmented Generation) để tr
 → Trả lời người dùng
 
 ````
+---
 
 ````
 ## 🗂️ Cấu trúc thư mục
