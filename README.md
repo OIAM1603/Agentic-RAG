@@ -101,12 +101,6 @@ Truy cập đường link Gradio để bắt đầu chat với trợ lý AI.
 
 ---
 
-## 🛡️ Ghi chú bảo mật
-
-🔐 Không nên commit `API KEY` vào mã nguồn. Sử dụng `.env` hoặc các giải pháp an toàn hơn (Vault, Secret Manager...).
-
----
-
 ## ✨ Đóng góp
 
 Pull request hoặc issue được hoan nghênh!
