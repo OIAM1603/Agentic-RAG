@@ -26,24 +26,24 @@ Trợ lý AI sử dụng mô hình RAG (Retrieval-Augmented Generation) để tr
 ┌─────────────┐
 │ Người dùng  │
 └──────┬──────┘
-↓
+       ↓
 ┌───────────────┐
 │ Gradio UI     │
 └──────┬────────┘
-↓
+       ↓
 ┌────────────────────┐
 │ LangChain Agent    │
 │ (Zero-shot ReAct)  │
 └──────┬─────────────┘
-↓
+       ↓
 ┌──────────────┬──────────────┐
 │ FAISS DB     │ Tavily API   │
 │ (nội bộ)     │ (internet)   │
 └──────────────┴──────────────┘
-↓
+       ↓
  Gemini 2.0
-↓
-→ Trả lời người dùng
+       ↓
+Trả lời người dùng
 
 ````
 ---
