@@ -41,9 +41,13 @@ Trợ lý AI sử dụng mô hình RAG (Retrieval-Augmented Generation) để tr
 │ (nội bộ)     │ (internet)   │
 └──────────────┴──────────────┘
        ↓
- Gemini 2.0
+┌──────────────────┐
+│ Gemini Flash 2.0 │
+└──────┬───────────┘
        ↓
-Trả lời người dùng
+┌─────────────────────┐
+│ Phản hồi người dùng │
+└─────────────────────┘
 
 ````
 ---
