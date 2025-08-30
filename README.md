@@ -105,7 +105,6 @@ Truy cập đường link Gradio để bắt đầu chat với trợ lý AI.
 
 ## Ví dụ câu hỏi
 
-* "Tóm tắt nội dung trong tài liệu `bao_cao.pdf`"
 * "Tìm thông tin về thuế thu nhập cá nhân năm 2024"
 * "Tìm các bài viết liên quan đến trí tuệ nhân tạo gần đây"
 
