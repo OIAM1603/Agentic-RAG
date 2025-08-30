@@ -1,8 +1,15 @@
-# 🤖 Trợ lý Agentic RAG Tiếng Việt
+# Trợ lý Agentic RAG Tiếng Việt
 
 Trợ lý AI sử dụng mô hình RAG (Retrieval-Augmented Generation) để trả lời câu hỏi bằng tiếng Việt, kết hợp **kiến thức từ tài liệu nội bộ** và **tìm kiếm web thời gian thực**.
 
-## 🧩 Tính năng chính
+---
+
+
+## Demo
+- Video demo: https://youtu.be/z8Tgwy7uaXw
+
+---
+## Tính năng chính
 
 - Trích xuất dữ liệu từ `.txt`, `.docx`, `.pdf`, `.csv`, `.xlsx`
 - Xử lý & tạo vector embedding bằng `intfloat/multilingual-e5-base`
@@ -14,7 +21,7 @@ Trợ lý AI sử dụng mô hình RAG (Retrieval-Augmented Generation) để tr
 
 ---
 
-## 🏗️ Kiến trúc hệ thống
+##  Kiến trúc hệ thống
 ````
 ┌─────────────┐
 │ Người dùng  │
@@ -34,7 +41,7 @@ Trợ lý AI sử dụng mô hình RAG (Retrieval-Augmented Generation) để tr
 │ (nội bộ)     │ (internet)   │
 └──────────────┴──────────────┘
 ↓
-🧠 Gemini 2.0
+ Gemini 2.0
 ↓
 → Trả lời người dùng
 
@@ -42,7 +49,7 @@ Trợ lý AI sử dụng mô hình RAG (Retrieval-Augmented Generation) để tr
 ---
 
 ````
-🗂️ Cấu trúc thư mục
+ Cấu trúc thư mục
 
 .
 ├── agent.py                # Mã nguồn chính
@@ -53,7 +60,7 @@ Trợ lý AI sử dụng mô hình RAG (Retrieval-Augmented Generation) để tr
 
 ````
 
-## 🚀 Cách chạy project
+## Cách chạy project
 
 ### 1. Cài đặt thư viện
 
@@ -92,7 +99,7 @@ Truy cập đường link Gradio để bắt đầu chat với trợ lý AI.
 
 ---
 
-## 💡 Ví dụ câu hỏi
+## Ví dụ câu hỏi
 
 * "Tóm tắt nội dung trong tài liệu `bao_cao.pdf`"
 * "Tìm thông tin về thuế thu nhập cá nhân năm 2024"
@@ -100,6 +107,6 @@ Truy cập đường link Gradio để bắt đầu chat với trợ lý AI.
 
 ---
 
-## ✨ Đóng góp
+## Đóng góp
 
 Pull request hoặc issue được hoan nghênh!
